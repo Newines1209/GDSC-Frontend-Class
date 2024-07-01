@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact page</title>
+        <style>
+            body{
+                background:linear-gradient(skyblue,lightgray);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            h1{
+               color:black;
+            }
+            button{
+                 background-color:burlywood
+            }
+            #box2{
+                background:linear-gradient(skyblue,lightgray);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                
+            }
+            #box1{
+                background:linear-gradient(skyblue,gray);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                border-radius: 20px;
+            }
+            .main{
+                display: grid;
+                grid-template-columns: 2fr 1fr 2fr;
+            }
+            label{
+                font-size: 20px;
+                font-weight: 10px;
+                margin-left: 30px;
+            }
+            .mes{
+                padding-right:425px ;
+                padding-bottom:50px ;
+                border-radius: 5px;
+                border: 0px;
+                margin-left: 30px;
+            
+            }
+            input{
+                
+                padding-right:425px ;
+                padding-top:10px ;
+                border-radius: 5px;
+                border: 0px;
+                margin-left: 30px;
+
+            }
+            .res{
+                padding-right: 10px;
+                padding-left: 10px;
+
+            }
+            .sub{
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+            button{
+                background-color: lightcyan;
+                margin-left: 30px;
+                margin-bottom: 2px;
+                border-radius: 5px;
+                border: 0px;
+
+            }
+            button:hover{
+                padding: 5px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div id="box1">
+                <h1>Contact form</h1>
+                <br>
+                <label for="fname">Firstname:</label>
+                <br>
+                <br>
+                <input type="text" name="fname" id="fname" placeholder="Fname">
+                <br>
+                <br>
+                <label for="lname">Lastname:</label>
+                <br>
+                <br>
+                <input type="text" name="lname" id="lname" placeholder="Lname">
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <br>
+                <input type="text" name="email" id="email" placeholder="xxx@gmail.com" >
+                <br>
+                <br>
+                <label for="Msg">Message:</label>
+                <br>
+                <br>
+                <input type="text" name="Msg" id="Msg" class="mes" placeholder="Your message">
+                <br>
+                <br>
+                <label for="phone">Phone: </label>
+                <br>
+                <br>
+                <input type="tel" id="phone" name="phone" placeholder="0923453###"  >
+                <br>
+                <br>
+                <label >Mr.</label>
+                <input type="radio" name="title">
+                <label >Mrs.</label>
+                <input type="radio" name="title">
+                <label>Ms.</label>
+                <input type="radio" name="title">
+                <br>
+                <br>
+                <form>
+                <input type="submit" class="sub">
+                </form>
+                <br>
+                <br>
+                <a href="https://learn.microsoft.com/en-us/plans/xe27izpkg328oy">
+                <button>SEE DETAILS</button>
+                </a>
+            </div>
+            <div id="box3">
+
+            </div>
+            <div id="box2">
+                <h2>Contact Us</h2>
+                <br>
+                <P style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> Welcome we are open for any kind of suggestion!</P>
+                <br>
+                <h4 style="color:black">   ADDRESS: Addis Ababa</h4>
+                <br>
+                <h4 style="color:black">   PHONE: +25198####3</h4>
+                <br>
+                <h4 style="color:black">   Email: xxx@gmail.com</h4>
+            </div>
+        </div>
+        <br>
+        <br>
+    </body>
+</html>
